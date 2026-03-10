@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Arya&family=Mukta&display=swap');
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color:$white;
+    background-color: $scolor;
+}
+.navbar-nav li:hover{
+    background-color: $scolor;
+}
+
+
+h1,
+    h2,
+    h3,
+
+    .fprimary {
+        font-family: $pfont;
+    }
+
+    h4,
+    h5,
+    h6,
+    p,
+    body,
+    .fsecondary {
+        font-family: $sfont;
+    }
+a {
+    text-decoration: none;
+}
+
+.widget {
+    margin: 0 0 1.5em;
+    background-color:$lgray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.relatedpost,.hometitle,.widget h2 {
+    padding: 1px 2px 0px 8px;
+    border-left: 1rem solid $scolor;
+    color: $white;
+
+    background-image: linear-gradient(60deg, $pcolor 73%, $scolor 61%);
+}
+
+@media screen and (min-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: $white;
+}
+
+#colophon ul,
+.widget ul {
+    margin: 0 0 0 0;
+}
+
+.navbar {
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    display: none;
+    color:$white;
+    &:hover{
+        background-color: $scolor;
+    }
+}
+
+.top-bar{
+    height: 30px!important;
+    background: $plite;
+}
+.social-icon{
+color:$white;
+background-color: $pcolor;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.4rem;
+&:hover{
+    color:$white;
+    background-color: $scolor;
+}
+}
+
+input[type="search"]{
+    border: 1px solid $pcolor;
+ 
+}
+.wp-block-search__button {
+    background: $scolor;
+    border: 1px solid $lgray;
+    padding: 0.375em 0.625em;
+    color: $white;
+    &:hover{
+        color:$white;
+        background-color: $pcolor;
+    }
+}
+.wp-block-search__label {
+    content: sdsddsdsd;
+    font-family:$pfont;
+    background: $pcolor;
+    color:$white;
+    text-align: center;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+
+body {
+    overflow-x: hidden;
+}

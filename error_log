@@ -1,0 +1,7 @@
+[09-Mar-2026 03:57:38 UTC] PHP Warning:  Uninitialized string offset 0 in /home/aksharar/onlinebansgadhi.com/wp-content/themes/mazzako-portal/functions.php on line 402
+[09-Mar-2026 03:57:38 UTC] PHP Warning:  Uninitialized string offset 0 in /home/aksharar/onlinebansgadhi.com/wp-content/themes/mazzako-portal/functions.php on line 402
+[09-Mar-2026 04:04:44 UTC] PHP Warning:  Undefined variable $aria_req in /home/aksharar/onlinebansgadhi.com/wp-content/themes/mazzako-portal/comments.php on line 7
+[09-Mar-2026 04:04:44 UTC] PHP Warning:  Undefined variable $html_req in /home/aksharar/onlinebansgadhi.com/wp-content/themes/mazzako-portal/comments.php on line 7
+[09-Mar-2026 04:04:44 UTC] PHP Warning:  Undefined variable $html5 in /home/aksharar/onlinebansgadhi.com/wp-content/themes/mazzako-portal/comments.php on line 9
+[09-Mar-2026 04:04:44 UTC] PHP Warning:  Undefined variable $aria_req in /home/aksharar/onlinebansgadhi.com/wp-content/themes/mazzako-portal/comments.php on line 9
+[09-Mar-2026 04:04:44 UTC] PHP Warning:  Undefined variable $html_req in /home/aksharar/onlinebansgadhi.com/wp-content/themes/mazzako-portal/comments.php on line 9

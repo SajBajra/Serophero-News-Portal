@@ -1,0 +1,520 @@
+@charset "UTF-8";
+/*************************
+
+Styles for the buttons.
+@Vivek Kumar Poddar
+http://wpvkp.com
+
+*************************/
+@import url("https://fonts.googleapis.com/css2?family=Arya&family=Mukta&display=swap");
+.social-box {
+  display: block;
+  margin: -10px 0 0px;
+  padding: 0 0rem 0;
+}
+
+.social-box:last-of-type {
+  margin: 0 0;
+}
+
+.social-btn {
+  display: block;
+  width: 100%;
+}
+
+a.col-2.sbtn span {
+  display: none;
+}
+
+a.col-1.sbtn, a.col-2.sbtn {
+  width: 6%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0 10px;
+  color: #fff;
+  margin: 0 0.5% 0 0;
+  line-height: 1.825 !important;
+  max-width: 50px;
+  min-width: 50px;
+}
+
+.s-twitter {
+  background: #03A9F4;
+}
+
+.s-twitter::before {
+  font-family: fontawesome;
+  content: "\f099";
+}
+
+.s-twitter:hover {
+  background: #0093d6;
+}
+
+.s-facebook {
+  background: #3F51B5;
+}
+
+.s-facebook::before {
+  font-family: fontawesome;
+  content: "\f09a";
+}
+
+a.col-1.sbtn.s-facebook:hover {
+  background: #2f409f;
+}
+
+.s-googleplus {
+  background: #F44336;
+}
+
+.s-googleplus::before {
+  font-family: fontawesome;
+  content: "\f0d5";
+}
+
+.s-googleplus:hover {
+  background: #c82c21;
+}
+
+.s-whatsapp {
+  background: #4CAF50;
+}
+
+.s-whatsapp::before {
+  font-family: fontawesome;
+  content: "\f232";
+}
+
+a.col-2.sbtn.s-whatsapp:hover {
+  background: #3d9440;
+}
+
+.s-linkedin {
+  background: #1a7baa;
+}
+
+.s-linkedin::before {
+  font-family: fontawesome;
+  content: "\f0e1";
+}
+
+a.col-2.sbtn.s-linkedin:hover {
+  background: #136288;
+}
+
+.s-pinterest {
+  background: #bd081c;
+}
+
+.s-pinterest::before {
+  font-family: fontawesome;
+  content: "\f231";
+}
+
+a.col-2.sbtn.s-pinterest:hover {
+  background: #a10718;
+}
+
+/*.s-buffer {
+	background: #ced7df;
+}
+.s-buffer::before {
+    font-family: fontawesome;
+    content: '\e804';
+}
+a.col-2.sbtn.s-buffer:hover {
+    background: #c3c5c8;
+}*/
+/********************************
+////// Important
+*******************************/
+.social-btn a:last-of-type {
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  a.col-1.sbtn {
+    width: 46px;
+  }
+
+  a.col-1.sbtn span {
+    display: none;
+  }
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  color: white;
+  background-color: red;
+}
+
+.navbar-nav li:hover {
+  background-color: red;
+}
+
+h1,
+h2,
+h3,
+.fprimary {
+  font-family: "Arya", sans-serif;
+}
+
+h4,
+h5,
+h6,
+p,
+body,
+.fsecondary {
+  font-family: "Mukta", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.widget {
+  margin: 0 0 1.5em;
+  background-color: rgba(248, 248, 249, 0.6784313725);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.relatedpost, .hometitle, .widget h2 {
+  padding: 1px 2px 0px 8px;
+  border-left: 1rem solid red;
+  color: white;
+  background-image: linear-gradient(60deg, #00500c 73%, red 61%);
+}
+
+@media screen and (min-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+#colophon ul,
+.widget ul {
+  margin: 0 0 0 0;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50px;
+  display: none;
+  color: white;
+}
+#btn-back-to-top:hover {
+  background-color: red;
+}
+
+.top-bar {
+  height: 30px !important;
+  background: #adefad;
+}
+
+.social-icon {
+  color: white;
+  background-color: #00500c;
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.4rem;
+}
+.social-icon:hover {
+  color: white;
+  background-color: red;
+}
+
+input[type=search] {
+  border: 1px solid #00500c;
+}
+
+.wp-block-search__button {
+  background: red;
+  border: 1px solid rgba(248, 248, 249, 0.6784313725);
+  padding: 0.375em 0.625em;
+  color: white;
+}
+.wp-block-search__button:hover {
+  color: white;
+  background-color: #00500c;
+}
+
+.wp-block-search__label {
+  content: sdsddsdsd;
+  font-family: "Arya", sans-serif;
+  background: #00500c;
+  color: white;
+  text-align: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hometitle h2 {
+  color: white;
+  padding: 0.2rem 0 0 1rem;
+}
+
+.w4pl-inner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.w4pl-inner img.avatar.avatar-24.photo {
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.hfeature-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.flip-card-back {
+  background-color: #00500c;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+ul#menu-main {
+  margin: 0;
+}
+
+.me-5 {
+  margin-right: 0rem !important;
+}
+
+@media screen and (max-width: 967px) {
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+}
+img.custom-logo {
+  padding-top: 1rem;
+}
+
+.float-end img {
+  padding: 0;
+  margin: 0;
+}
+
+.site-info {
+  color: white;
+}
+.site-info a {
+  color: white;
+}
+
+.pback {
+  background-color: #00500c;
+}
+
+.sback {
+  background-color: red;
+}
+
+.cfooter {
+  background-color: #00500c;
+  padding: 10px 0;
+}
+
+.mfooter {
+  background-color: #e1f1e4;
+  border-top: 2px groove #00500c;
+}
+
+.btn-mazzako {
+  background-color: #00500c;
+  color: white;
+  font-weight: 600;
+}
+.btn-mazzako:hover {
+  background-color: red;
+  color: white;
+}
+.btn-mazzako:visited {
+  color: white;
+}
+
+.entry-content P {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+a.related-thumb img {
+  height: 10rem;
+  object-fit: cover;
+}
+
+h4.title-like a {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  padding: 0.1rem 0 0 0;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+span.nav-subtitle {
+  color: white;
+  background: #00500c;
+  padding: 0.06rem 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+span.nav-title {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+span#email-notes, span.required-field-message {
+  display: none;
+}
+
+.comment-notes::before {
+  content: "तपाइको इमेल गोप्य राखिने छ | सबै फिल्ड भर्नुहोला !";
+  color: #00500c;
+}
+
+label[for=wp-comment-cookies-consent] {
+  display: none;
+}
+
+.comment-form-cookies-consent::after {
+  content: "आर्को प्रतिक्रियाको लागि नाम र इमेल save गर्नुस !";
+}
+
+#commentform p {
+  margin-bottom: 0.5rem;
+}
+
+div#respond {
+  margin: 1rem 0;
+  background-color: lightgray;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+input[value="Post Comment"] {
+  content: "sss";
+}
+
+.entry-title, h1, h4, a {
+  color: black;
+}
+.entry-title:hover, h1:hover, h4:hover, a:hover {
+  color: red;
+}
+.entry-title:visited, h1:visited, h4:visited, a:visited {
+  color: black;
+}
+.entry-title:active, h1:active, h4:active, a:active {
+  color: #00500c;
+}
+
+.page-nation {
+  background-color: red;
+}
+
+li.page-nation a {
+  color: white !important;
+}
+li.page-nation a:hover {
+  color: white;
+}
+li.page-nation a:visited {
+  color: white;
+}
+li.page-nation a:active {
+  color: white;
+}
+
+.menusearchicon {
+  margin-right: 5rem;
+  font-size: 20px;
+}
+
+.mobilelogo {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 55%;
+    height: 100%;
+    padding: 2rem 2rem 2rem 0;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+    background-color: #001e05;
+    top: 0;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    padding-left: 2rem;
+  }
+
+  ul,
+ol {
+    margin: 0 0 1.5em 2em;
+  }
+
+  .mobilelogo {
+    display: flow-root;
+  }
+}
+.search1 {
+  display: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  border-right: 0.1rem solid #066e15;
+}
+
+.row.my-3.mx-3.mobilelogo img {
+  width: 80%;
+}
+
+.sticky-top1 {
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+@media (min-width: 967px) {
+  #primary {
+    padding: 0 2rem;
+  }
+}/*# sourceMappingURL=main.css.map */

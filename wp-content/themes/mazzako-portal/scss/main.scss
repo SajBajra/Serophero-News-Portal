@@ -1,0 +1,210 @@
+@import "variable";
+@import "mixer";
+@import "normal";
+@import "homepage";
+
+.site-info{
+    color:white;
+
+    a{
+        color:$white;
+    }
+}
+
+.pback{
+    background-color: $pcolor;
+}
+.sback{
+    background-color: $scolor;
+}
+.cfooter{
+    background-color: $credit;
+   padding:10px 0;
+}
+.mfooter{
+    background-color: $mfooter;
+    border-top: 2px groove $pcolor;
+}
+
+.btn-mazzako{
+    background-color:$pcolor;
+    color: $white;
+    font-weight: 600;
+    &:hover{
+        background-color:$scolor;
+        color: $white;
+    }
+    &:visited{
+        color: $white; 
+    }
+}
+
+.entry-content P{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: justify;
+}
+a.related-thumb img {
+    height: 10rem;
+    object-fit: cover;
+}
+
+h4.title-like a {
+    color: rgb(0 0 0);
+    font-size: 1.2rem;
+    padding: 0.1rem 0 0 0;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+span.nav-subtitle {
+    color: $white;
+    background: $pcolor;
+    padding: 0.06rem 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+span.nav-title {
+    color: $scolor;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+span#email-notes,span.required-field-message{
+    display: none;
+}
+.comment-notes::before{
+    content: 'तपाइको इमेल गोप्य राखिने छ | सबै फिल्ड भर्नुहोला !';
+    color:$pcolor;
+}
+label[for=wp-comment-cookies-consent] {
+    display: none;
+}
+
+.comment-form-cookies-consent::after {
+    content: 'आर्को प्रतिक्रियाको लागि नाम र इमेल save गर्नुस !';
+}
+
+#commentform p{
+margin-bottom: 0.5rem;
+}
+
+div#respond {
+    margin: 1rem 0;
+    background-color: lightgray;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+input[value="Post Comment"]{
+    content: 'sss';
+}
+.entry-title,h1,h4,a{
+    color:$flink;
+    &:hover{
+        color: $scolor;
+    }
+    &:visited{
+        color:$flink;
+    }
+    &:active{
+        color: $pcolor;
+    }
+}
+
+.page-nation{
+
+    background-color: $scolor;
+}
+li.page-nation a{
+
+    color: $white!important;
+    &:hover{
+        color: $white;
+    }
+    &:visited{
+        color: $white;
+    }
+    &:active{
+        color: $white;
+    }
+}
+
+.menusearchicon{
+    margin-right: 5rem;
+    font-size: 20px;
+}
+
+.mobilelogo {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 55%;
+        height: 100%;
+        padding: 2rem 2rem 2rem 0;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+        background-color: $leftmenuback;
+        top: 0;
+
+    }
+
+    .navbar-toggler.collapsed~.navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding-left: 2rem;
+    }
+
+    ul,
+    ol {
+        margin: 0 0 1.5em 2em;
+    }
+
+    .mobilelogo {
+        display: flow-root;
+    }
+
+}
+
+.search1 {
+    display: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    border-right: 0.1rem solid $menurightborder;
+}
+
+.row.my-3.mx-3.mobilelogo img {
+    width: 80%;
+}
+
+.sticky-top1{
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+@media (min-width: 967px) {
+    #primary {
+        padding: 0 2rem;
+
+    }
+
+}

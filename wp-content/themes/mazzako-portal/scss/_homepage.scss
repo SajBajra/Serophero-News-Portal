@@ -1,0 +1,52 @@
+.hometitle h2{
+    color:$white;
+    padding:0.2rem 0 0 1rem;;
+    }
+    
+    
+    
+    
+    .w4pl-inner ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .w4pl-inner img.avatar.avatar-24.photo {
+            border: 2px solid $scolor;
+            border-radius: 50%;
+        }
+    
+        .hfeature-title{
+            font-size: 3rem;
+            font-weight: 800;
+        }
+        
+    .flip-card-back {
+        background-color:$pcolor;
+        color: white;
+        transform: rotateY(180deg);
+      }
+    
+    
+    
+      ul#menu-main{
+        margin: 0;
+      }
+      .me-5{
+        margin-right: 0rem!important;
+    }
+    
+    @media screen and (max-width: 967px){
+    .fs-5 {
+        font-size: 1rem!important;
+    }
+    }
+    img.custom-logo {
+        padding-top: 1rem;
+    }
+    .float-end img {
+     
+        padding: 0;
+        margin: 0;
+    }
