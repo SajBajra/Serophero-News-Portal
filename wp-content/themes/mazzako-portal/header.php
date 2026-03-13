@@ -35,7 +35,7 @@
     }
     </style>
     <?php wp_head(); ?>
-    <link rel="stylesheet" href="https://onlinebansgadhi.com/wp-content/themes/mazzako-portal/scss/main.css">
+    <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/scss/main.css' ); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=62ca4f7c4d7c0900122da6f6&product=sop' async='async'></script>
     <style>
@@ -54,7 +54,7 @@
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-        background: green;
+        background: #689948;
         border-radius: 5px;
 
     }

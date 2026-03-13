@@ -92,17 +92,9 @@ define( 'WP_AUTO_UPDATE_CORE', 'minor' );
 
 
 
-// Local URL override (prevents DB "home/siteurl" from forcing production domain).
-// Auto-detects host + base path (works for vhosts like newsportallocal.test and for localhost/subfolder).
-$__wp_scheme = ( ! empty( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] !== 'off' ) ? 'https' : 'http';
-$__wp_host = ! empty( $_SERVER['HTTP_HOST'] ) ? $_SERVER['HTTP_HOST'] : 'localhost';
-$__wp_base_path = '/';
-if ( ! empty( $_SERVER['SCRIPT_NAME'] ) ) {
-	$__wp_base_path = rtrim( str_replace( '\\', '/', dirname( $_SERVER['SCRIPT_NAME'] ) ), '/' );
-	$__wp_base_path = $__wp_base_path === '' ? '/' : ( $__wp_base_path . '/' );
-}
-define( 'WP_HOME', $__wp_scheme . '://' . $__wp_host . $__wp_base_path );
-define( 'WP_SITEURL', $__wp_scheme . '://' . $__wp_host . $__wp_base_path );
+// Local URL override: always point to the vhost root.
+define( 'WP_HOME', 'http://wp-newsportal-main.test' );
+define( 'WP_SITEURL', 'http://wp-newsportal-main.test' );
 
 define( 'CONCATENATE_SCRIPTS', false );
 /* That's all, stop editing! Happy publishing. */

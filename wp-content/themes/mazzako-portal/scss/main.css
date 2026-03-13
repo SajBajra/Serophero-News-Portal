@@ -7,6 +7,10 @@ http://wpvkp.com
 
 *************************/
 @import url("https://fonts.googleapis.com/css2?family=Arya&family=Mukta&display=swap");
+
+:root {
+  --brand-primary: #689948;
+}
 .social-box {
   display: block;
   margin: -10px 0 0px;
@@ -183,7 +187,7 @@ a {
   padding: 1px 2px 0px 8px;
   border-left: 1rem solid red;
   color: white;
-  background-image: linear-gradient(60deg, #00500c 73%, red 61%);
+  background-image: linear-gradient(60deg, var(--brand-primary) 73%, red 61%);
 }
 
 @media screen and (min-width: 767px) {
@@ -224,7 +228,7 @@ a {
 
 .social-icon {
   color: white;
-  background-color: #00500c;
+  background-color: var(--brand-primary);
   padding: 0.1rem 0.5rem;
   border-radius: 0.4rem;
 }
@@ -234,7 +238,7 @@ a {
 }
 
 input[type=search] {
-  border: 1px solid #00500c;
+  border: 1px solid var(--brand-primary);
 }
 
 .wp-block-search__button {
@@ -245,13 +249,13 @@ input[type=search] {
 }
 .wp-block-search__button:hover {
   color: white;
-  background-color: #00500c;
+  background-color: var(--brand-primary);
 }
 
 .wp-block-search__label {
   content: sdsddsdsd;
   font-family: "Arya", sans-serif;
-  background: #00500c;
+  background: var(--brand-primary);
   color: white;
   text-align: center;
   border-radius: 1rem 1rem 0 0;
@@ -283,7 +287,7 @@ body {
 }
 
 .flip-card-back {
-  background-color: #00500c;
+  background-color: var(--brand-primary);
   color: white;
   transform: rotateY(180deg);
 }
@@ -318,7 +322,7 @@ img.custom-logo {
 }
 
 .pback {
-  background-color: #00500c;
+  background-color: var(--brand-primary);
 }
 
 .sback {
@@ -326,17 +330,17 @@ img.custom-logo {
 }
 
 .cfooter {
-  background-color: #00500c;
+  background-color: var(--brand-primary);
   padding: 10px 0;
 }
 
 .mfooter {
   background-color: #e1f1e4;
-  border-top: 2px groove #00500c;
+  border-top: 2px groove var(--brand-primary);
 }
 
 .btn-mazzako {
-  background-color: #00500c;
+  background-color: var(--brand-primary);
   color: white;
   font-weight: 600;
 }
@@ -387,7 +391,7 @@ span#email-notes, span.required-field-message {
 
 .comment-notes::before {
   content: "तपाइको इमेल गोप्य राखिने छ | सबै फिल्ड भर्नुहोला !";
-  color: #00500c;
+  color: var(--brand-primary);
 }
 
 label[for=wp-comment-cookies-consent] {
@@ -423,7 +427,7 @@ input[value="Post Comment"] {
   color: black;
 }
 .entry-title:active, h1:active, h4:active, a:active {
-  color: #00500c;
+  color: var(--brand-primary);
 }
 
 .page-nation {
@@ -499,7 +503,7 @@ ol {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  border-right: 0.1rem solid #066e15;
+  border-right: 0.1rem solid var(--brand-primary);
 }
 
 .row.my-3.mx-3.mobilelogo img {
