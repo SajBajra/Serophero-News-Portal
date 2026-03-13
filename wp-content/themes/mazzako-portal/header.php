@@ -18,6 +18,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" href="<?php echo esc_url( home_url( '/cropped-final.jpeg' ) ); ?>" type="image/jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -48,8 +49,8 @@
     ::-webkit-scrollbar-track {
         box-shadow: inset 0 0 5px grey;
         border-radius: 5px !important;
-        border-top: 2px solid red;
-        border-bottom: 2px solid red;
+        border-top: 2px solid #90cdf9;
+        border-bottom: 2px solid #90cdf9;
     }
 
     /* Handle */
@@ -61,7 +62,7 @@
 
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-        background: red;
+        background: #90cdf9;
     }
     </style>
 
@@ -96,10 +97,10 @@
                 <div class="row" style="margin:10px 0 10px 0;">
                     <div class="col-sm-4">
                         <div class="site-branding">
-                            <?php
-                            the_custom_logo();
-                            if (is_front_page() && is_home()) :
-                            ?>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                                <img src="<?php echo esc_url( home_url( '/cropped-final.jpeg' ) ); ?>" alt="<?php bloginfo( 'name' ); ?>" class="custom-logo" />
+                            </a>
+                            <?php if (is_front_page() && is_home()) : ?>
                             <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
                                     rel="home"><?php bloginfo('name'); ?></a></h1>
                             <?php
@@ -134,7 +135,7 @@
 
             <nav class="sticky-top navbar navbar-expand-md navbar-dark pback fprimary fs-5 px-5 ">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">अनलाइन बासगढ़ी</a>
+                    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">&#2360;&#2375;&#2352;&#2379;&#2347;&#2375;&#2352;&#2379;</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu"
                         aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -143,7 +144,9 @@
                     <div class="collapse navbar-collapse" id="main-menu">
 
                         <div class="row my-3 mb-2 mobilelogo">
-                            <?php the_custom_logo(); ?>
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                                <img src="<?php echo esc_url( home_url( '/cropped-final.jpeg' ) ); ?>" alt="<?php bloginfo( 'name' ); ?>" class="custom-logo" />
+                            </a>
                         </div>
 
                         <?php

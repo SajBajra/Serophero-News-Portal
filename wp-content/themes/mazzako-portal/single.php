@@ -48,9 +48,11 @@ get_header();
                                             <img src="<?php echo esc_url(get_avatar_url($post->post_author)); ?>"
                                                 class="rounded-circle" width="26" height="26" />
                                         </span>
-                                        <span class="post-author-name"><img draggable="false" role="img" class="emoji"
+                                        <span class="post-author-name">
+                                            <img draggable="false" role="img" class="emoji"
                                                 alt="✍️" src="https://s.w.org/images/core/emoji/14.0.0/svg/270d.svg">
-                                            <b><?php the_author(); ?></b></span>
+                                            <b>सेरोफेरो</b>
+                                        </span>
 
                                         <span class="ptime"> &nbsp; -प्रकाशित मिति :
                                             <b><?php $post_date = get_the_date('l M j, Y');

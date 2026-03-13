@@ -19,7 +19,7 @@ get_header();
 
             <section class="error-404 not-found">
                 <header class="page-header">
-                    <h1 style="color:red; text-align:center; font-size:4rem; font-weight:900;">404! Error</h1>
+                    <h1 style="color:#90cdf9; text-align:center; font-size:4rem; font-weight:900;">404! Error</h1>
                     <h1 class="page-title text-center">
                         <?php esc_html_e('माफ गर्नुहोला तपाइले खोज्नुभएको पेज भेट्न सकिएन !!', 'mazzako-portal'); ?>
                     </h1>
