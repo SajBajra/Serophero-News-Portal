@@ -115,6 +115,14 @@ get_header();
 
 
 
+        <!-- Video row (before अर्थ / स्वास्थ्य) -->
+        <div class="row my-4">
+            <?php hometitle('भिडियो', '#'); ?>
+            <div class="col-sm-12">
+                <?php echo do_shortcode('[postlist id=9371]'); ?>
+            </div>
+        </div>
+
         <!--seventh row -->
         <div class="row">
             <?php dynamic_sidebar('homeadsss'); ?>
