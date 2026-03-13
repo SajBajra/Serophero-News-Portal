@@ -118,8 +118,14 @@ get_header();
         <!-- Video row (before अर्थ / स्वास्थ्य) -->
         <div class="row my-4">
             <?php hometitle('भिडियो', '#'); ?>
-            <div class="col-sm-12">
+            <div class="col-md-4">
                 <?php echo do_shortcode('[postlist id=9371]'); ?>
+            </div>
+            <div class="col-md-4">
+                <?php echo do_shortcode('[postlist id=9375]'); ?>
+            </div>
+            <div class="col-md-4">
+                <?php echo do_shortcode('[postlist id=9376]'); ?>
             </div>
         </div>
 
