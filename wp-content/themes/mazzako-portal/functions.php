@@ -159,17 +159,6 @@ function mazzako_portal_widgets_init()
 	);
 	register_sidebar(
 		array(
-			'name'          => esc_html__('HomePage Videos', 'mazzako-portal'),
-			'id'            => 'homevideos',
-			'description'   => esc_html__('Add video embeds (YouTube iframes, etc.) to show on the homepage.', 'mazzako-portal'),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
-		)
-	);
-	register_sidebar(
-		array(
 			'name'          => esc_html__('Header Social Icons', 'mazzako-portal'),
 			'id'            => 'headersocial',
 			'description'   => esc_html__('Add widgets here.', 'mazzako-portal'),

@@ -424,48 +424,6 @@ img.wpbs-featured {
   border-color: var(--brand-primary);
 }
 
-/* Home video section */
-.home-videos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.home-videos .widget {
-  background: transparent;
-  box-shadow: none;
-  border-radius: 0;
-  padding: 0;
-  flex: 1 1 calc(33.333% - 1rem);
-}
-
-.home-videos iframe {
-  display: block;
-  width: 100%;
-  max-width: 320px;
-  height: 180px;
-  border: none;
-  margin: 0;
-}
-
-@media (max-width: 991px) {
-  .home-videos .widget {
-    flex: 1 1 calc(50% - 1rem);
-  }
-  .home-videos iframe {
-    height: 165px;
-  }
-}
-
-@media (max-width: 575px) {
-  .home-videos .widget {
-    flex: 1 1 100%;
-  }
-  .home-videos iframe {
-    height: 160px;
-  }
-}
-
 a.related-thumb img {
   height: 10rem;
   object-fit: cover;

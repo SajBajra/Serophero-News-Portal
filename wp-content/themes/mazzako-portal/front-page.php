@@ -115,15 +115,6 @@ get_header();
 
 
 
-        <!-- Video row (before अर्थ / स्वास्थ्य) -->
-        <div class="row my-4">
-            <?php hometitle('भिडियो', '#'); ?>
-            <div class="col-12 home-videos">
-                <?php dynamic_sidebar('homevideos'); ?>
-            </div>
-        </div>
-
-
         <!--seventh row -->
         <div class="row">
             <?php dynamic_sidebar('homeadsss'); ?>
@@ -142,6 +133,14 @@ get_header();
             <div class="col-sm-4">
                 <?php hometitle('स्वास्थ्य', 'https://onlinebansgadhi.com/category/health/'); ?>
                 <?php echo do_shortcode('[postlist id=1751]'); ?>
+            </div>
+        </div>
+
+        <!-- Video row (move existing post list named भिडियो before विज्ञान / शिक्षा) -->
+        <div class="row my-4">
+            <?php hometitle('भिडियो', '#'); ?>
+            <div class="col-sm-12">
+                <?php echo do_shortcode('[postlist id=9371]'); ?>
             </div>
         </div>
 
