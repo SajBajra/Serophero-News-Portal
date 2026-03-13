@@ -136,14 +136,6 @@ get_header();
             </div>
         </div>
 
-        <!-- Video row (move existing post list named भिडियो before विज्ञान / शिक्षा) -->
-        <div class="row my-4">
-            <?php hometitle('भिडियो', '#'); ?>
-            <div class="col-sm-12">
-                <?php echo do_shortcode('[postlist id=9371]'); ?>
-            </div>
-        </div>
-
 
 		
         <!--fourth row -->
