@@ -206,6 +206,19 @@ a {
   padding-left: 1rem;
 }
 
+/* Header social widget should not look like a card */
+.top-bar .widget {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.top-bar .widget ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 .navbar {
   padding-top: 0;
   padding-bottom: 0;
