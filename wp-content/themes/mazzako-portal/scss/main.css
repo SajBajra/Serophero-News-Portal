@@ -543,7 +543,7 @@ li.page-nation a:active {
   .navbar-collapse.show {
     left: 0;
     transition: left 300ms ease-in-out;
-    background-color: #001e05;
+    background-color: var(--brand-primary);
     top: 0;
   }
 
