@@ -179,9 +179,9 @@ a {
 
 .widget {
   margin: 0 0 1.5em;
-  background-color: var(--brand-primary);
+  background-color: #f5f9f6;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px 12px;
 }
 
 .relatedpost, .hometitle, .widget h2 {
@@ -202,7 +202,8 @@ a {
 
 #colophon ul,
 .widget ul {
-  margin: 0 0 0 0;
+  margin: 0;
+  padding-left: 1rem;
 }
 
 .navbar {
