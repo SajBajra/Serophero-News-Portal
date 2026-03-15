@@ -587,4 +587,52 @@ ol {
   #primary {
     padding: 0 2rem;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/* Top bar redesign */
+.top-bar {
+  background-color: #0b6b1b;
+  color: #ffffff;
+  font-size: 0.85rem;
+}
+
+.top-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 1rem;
+}
+
+.top-bar-date {
+  opacity: 0.9;
+}
+
+.top-bar-social {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.top-bar-social a {
+  color: #ffffff;
+  font-size: 1rem;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.top-bar-social a:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 767px) {
+  .top-bar-inner {
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+  .top-bar-date {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -79,15 +79,17 @@
 
         <header id="masthead" class="site-header">
 
-            <div class="container-fluid top-bar">
-                <div class="row" style="margin:2px 12px 2px 12px;">
-                    <div class="col fsecondary">
-                        <p class="text-dark "> <?php echo date('Y F j l'); ?></p>
+            <div class="top-bar">
+                <div class="top-bar-inner container-xxl">
+                    <div class="top-bar-left">
+                        <span class="top-bar-date">
+                            <?php echo date_i18n( 'Y F j l' ); ?>
+                        </span>
                     </div>
-                    <div class="col" style="margin-top:-6px;">
-                        <span">
-                            <?php dynamic_sidebar('headersocial'); ?>
-                            </span>
+                    <div class="top-bar-right">
+                        <div class="top-bar-social">
+                            <?php dynamic_sidebar( 'headersocial' ); ?>
+                        </div>
                     </div>
                 </div>
             </div>
