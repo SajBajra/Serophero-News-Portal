@@ -635,4 +635,9 @@ ol {
   }
 }
 
+/* Hide specific header block */
+#block-34 {
+  display: none !important;
+}
+
 /*# sourceMappingURL=main.css.map */
