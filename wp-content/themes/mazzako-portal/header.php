@@ -85,8 +85,6 @@
                         <span class="top-bar-date">
                             <?php echo date_i18n( 'Y F j l' ); ?>
                         </span>
-                    </div>
-                    <div class="top-bar-right">
                         <div class="top-bar-social">
                             <?php dynamic_sidebar( 'headersocial' ); ?>
                         </div>
