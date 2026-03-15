@@ -46,17 +46,10 @@
             <div class="row">
                 <div class="col-md-8">
                     <div class="site-info">
-                        <a href="<?php echo esc_url(__('kshitiz.com.np', 'क्षितिज kshitiz')); ?>">
-                            <?php
-// Display copyright
-echo '&copy; ' . date('Y') . ' OnlineBansgadhi';
-?>
-<span class="sep"> | </span>
-<?php
-// Display design credit
-echo 'Design by <a href="https://kshitiz.com.np">क्षितिज Kshitiz</a>.';
-?>
-
+                        <?php
+                        // Footer details adapted from SeroPheroOnline
+                        echo 'Copyright &copy; ' . date('Y') . ' SeroPheroOnline TV || All Rights Reserved';
+                        ?>
                     </div><!-- .site-info -->
 
                 </div>
