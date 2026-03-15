@@ -46,7 +46,7 @@ get_header();
                                 </a>
                                 <p class="card-text">
                                     <?php _e("<i class='fa fa-user-circle-o' aria-hidden='true'></i>", "wpbootstrap"); ?>
-                                    <?php the_author_posts_link(); ?>
+                                    <strong>सेरोफेरो</strong>
                                     <?php _e("&nbsp; | &nbsp; <i class='fa fa-clock-o' aria-hidden='true'></i>", "wpbootstrap"); ?>
                                     <time datetime="<?php echo the_time('Y-m-j'); ?>"
                                         pubdate><?php the_time(); ?></time>
