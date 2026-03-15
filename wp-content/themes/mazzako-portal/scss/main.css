@@ -179,7 +179,7 @@ a {
 
 .widget {
   margin: 0 0 1.5em;
-  background-color: rgba(248, 248, 249, 0.6784313725);
+  background-color: var(--brand-primary);
   border-radius: 10px;
   padding: 5px;
 }
