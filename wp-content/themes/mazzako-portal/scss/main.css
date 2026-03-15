@@ -615,8 +615,6 @@ ol {
 
 .top-bar-social a {
   color: #ffffff;
-  background: transparent !important;
-  border: none !important;
   font-size: 1rem;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
