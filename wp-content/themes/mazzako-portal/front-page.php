@@ -63,7 +63,7 @@ get_header();
 
         <!--Third row -->
         <div class="row">
-            <?php hometitle('बाँसगढी बिशेष', 'https://onlinebansgadhi.com/category/basgad-bises/'); ?>
+            <?php hometitle('सेरोफेरो विशेष', home_url('/category/basgad-bises/')); ?>
             <div class="col-sm-3">
                 <?php echo do_shortcode('[postlist id=1734]'); ?>
             </div>
@@ -84,7 +84,7 @@ get_header();
         <div class="row">
             <?php dynamic_sidebar('homeadss'); ?>
             <div class="col-sm-8">
-                <?php hometitle('राजनीति', 'https://onlinebansgadhi.com/category/politics/'); ?>
+                <?php hometitle('राजनीति', home_url('/category/politics/')); ?>
                 <div class="row">
                     <div class="col-sm-6">
                         <?php echo do_shortcode('[postlist id=1741]'); ?>
@@ -95,7 +95,7 @@ get_header();
                 </div>
             </div>
             <div class="col-sm-4">
-                <?php hometitle('बिचार', 'https://onlinebansgadhi.com/category/opinion/'); ?>
+                <?php hometitle('बिचार', home_url('/category/opinion/')); ?>
                 <?php echo do_shortcode('[postlist id=1998]'); ?>
             </div>
         </div>
@@ -134,7 +134,7 @@ get_header();
             <?php dynamic_sidebar('homeadsss'); ?>
             <div class="col-sm-8">
 
-                <?php hometitle('अर्थ', 'https://onlinebansgadhi.com/category/echo'); ?>
+                <?php hometitle('अर्थ', home_url('/category/echo/')); ?>
                 <div class="row">
                     <div class="col-sm-6">
                         <?php echo do_shortcode('[postlist id=1749]'); ?>
@@ -145,7 +145,7 @@ get_header();
                 </div>
             </div>
             <div class="col-sm-4">
-                <?php hometitle('स्वास्थ्य', 'https://onlinebansgadhi.com/category/health/'); ?>
+                <?php hometitle('स्वास्थ्य', home_url('/category/health/')); ?>
                 <?php echo do_shortcode('[postlist id=1751]'); ?>
             </div>
         </div>
@@ -155,7 +155,7 @@ get_header();
         <!--fourth row -->
         <div class="row">
             <div class="col-sm-8">
-                <?php hometitle('बिज्ञान / प्रबिधि ', 'https://onlinebansgadhi.com/category/technology/'); ?>
+                <?php hometitle('बिज्ञान / प्रबिधि ', home_url('/category/technology/')); ?>
                 <div class="row">
                     <div class="col-sm-6">
                         <?php echo do_shortcode('[postlist id=1737]'); ?>
@@ -167,7 +167,7 @@ get_header();
                 </div>
             </div>
             <div class="col-sm-4">
-                <?php hometitle('शिक्षा', 'https://onlinebansgadhi.com/category/education/'); ?>
+                <?php hometitle('शिक्षा', home_url('/category/education/')); ?>
 
 
                 <?php echo do_shortcode('[postlist id=1739]'); ?>
@@ -180,7 +180,7 @@ get_header();
         <!--Eighth row -->
         <div class="row">
             <div class="col-sm-9">
-                <?php hometitle('खेलकुद', 'https://onlinebansgadhi.com/category/sports/'); ?>
+                <?php hometitle('खेलकुद', home_url('/category/sports/')); ?>
                 <div class="row">
                     <div class="col-sm-6">
                         <?php echo do_shortcode('[postlist id=1752]'); ?>
@@ -209,7 +209,7 @@ get_header();
 
         <!--nineth row -->
         <div class="row">
-            <?php hometitle('विजनेस', 'https://onlinebansgadhi.com/category/business/'); ?>
+            <?php hometitle('विजनेस', home_url('/category/business/')); ?>
             <div class="col-md-3">
                 <?php echo do_shortcode('[postlist id=1756]'); ?>
             </div>
@@ -227,7 +227,7 @@ get_header();
 
         <!--Tenth row -->
         <div class="row">
-            <?php hometitle('मनोरंजन', 'https://onlinebansgadhi.com/category/entertainment/'); ?>
+            <?php hometitle('मनोरंजन', home_url('/category/entertainment/')); ?>
             <div class="col-md-4">
                 <?php echo do_shortcode('[postlist id=1760]'); ?>
             </div>
